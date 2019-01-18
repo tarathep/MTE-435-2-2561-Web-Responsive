@@ -1,0 +1,69 @@
+@media only screen and (max-width:400px){
+    [class*= "col-s-"]{width: 100%;}
+    [class*= "col-s-hidden"]{display: none;}
+    .menubox{ background-color: pink; min-height: 200px;margin-top: 5px; }
+    .menu{text-align: center; padding: 5px;}
+}
+
+@media only screen and (min-width:401px) and (max-width:749px){
+    .col-m-1{   width: 10%;  }
+    .col-m-2{   width: 20%; }
+    .col-m-3{   width: 30%;    }
+    .col-m-4{   width: 40%; }
+    .col-m-5{   width: 50%; }
+    .col-m-6{   width: 60%;    }
+    .col-m-7{   width: 70%; }
+    .col-m-8{   width: 80%; }
+    .col-m-9{   width: 90%;    }
+    .col-m-10{  width: 100%; }
+    .col-m-hidden{ display:none;}
+
+    .menubox{ background-color: pink; min-height: 200px; margin-top: 5px;}
+    .menu{text-align: center; padding: 5px }
+    }
+
+@media only screen and (min-width:750px){
+    .col-p-1{   width: 10%;  }
+    .col-p-2{   width: 20%; }
+    .col-p-3{   width: 30%;    }
+    .col-p-4{   width: 40%; }
+    .col-p-5{   width: 50%; }
+    .col-p-6{   width: 60%;    }
+    .col-p-7{   width: 70%; }
+    .col-p-8{   width: 80%; }
+    .col-p-9{   width: 90%;    }
+    .col-p-10{  width:100%; }
+    .col-p-hidden{  display: none;}
+    .menubox{ background-color: pink; min-height: 10px; text-align: center; margin-top: 5px;}
+    }
+[class*= "col-"]{float: left;}
+.head{ text-align: center;
+    background-color: skyblue; min-height: 200px; }
+
+.content{
+    background-color: yellow; min-height: 200px;text-align: center;margin-top: 5px;
+}
+
+.foot{ background-color: gray; min-height: 50px; margin-top: 5px;
+    text-align: center;
+}
+
+.box{
+    min-height:100px;margin-top: 3px; 
+}
+.green{
+    background-color: green;text-align: center;
+}
+.blue{
+    background-color: skyblue;text-align: center;
+}
+
+a{text-decoration: none; color: black;}
+    a{display: block;
+     min-height: 30px;
+    }
+    a:hover{background-color: aqua;
+    min-height: 30px;
+    display: block;
+}
+
